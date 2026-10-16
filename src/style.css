@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    overflow: hidden;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#status
+{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 14px;
+    pointer-events: none;
+    z-index: 10;
+}
